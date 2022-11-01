@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Math for kids | Multiplication</title>
+  </head>
+  <body>
+    <audio id="wrongAudio">
+      <source src="./sound/wrong.mp3" />
+    </audio>
+    <audio id="correctAudio">
+      <source src="./sound/correct.mp3" />
+    </audio>
+    <header>
+      <div class="div">
+        <h1>MATH FOR KIDS</h1>
+      </div>
+      <div class="container">
+        <a href="index.html">Addition</a>
+        <a  href="subtract.html">Subtraction</a>
+        <a class="active" href="multiply.html">Multiplication</a>
+        <a href="divide.html">Division</a>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="equation">
+        <h1 style="color: #fe4a49" id="num1">3</h1>
+        <h1 style="color: #2ab7ca">×</h1>
+        <h1 style="color: #fed766" id="num2">1</h1>
+        <h1 style="color: #fe4a49">=</h1>
+        <h1 style="color: gray">?</h1>
+      </div>
+      <div class="answer-options">
+        <h1 id="option1">1</h1>
+        <h1 id="option2">2</h1>
+        <h1 id="option3">3</h1>
+      </div>
+    </div>
+    <script src="./js/multiply.js"></script>
+  </body>
+</html>
